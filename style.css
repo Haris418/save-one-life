@@ -1640,6 +1640,9 @@ button.donate-now {
     background-color: #fff;
     padding: 20px 30px;
   }
+  .mobile_logo>a>img {
+    width: 7rem;
+}
 }
 /* Custom CSS Code Polylang */
 .header_polylang_langswitcher {
