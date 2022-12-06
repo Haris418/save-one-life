@@ -1881,12 +1881,14 @@ button.donate-now {
     font-weight: 500;
     border-bottom: 1px solid #dadada;
   }
-
-  .header_mobile .mobile_nav .mobile_mainmenu li .sub-menu li a:before {
-    content: "-";
-    margin-right: 4px;
+  .donate-now-mobile {
+    padding: 11px 36px 11px 44px;
   }
-
+  button.donate {
+    padding: 14px 38px;
+    background: #fff;
+    border: none;
+  }
   .header_mobile .mobile_nav .mobile_mainmenu li .sub-menu li a {
     padding-left: 53px;
   }
@@ -2034,6 +2036,7 @@ button.donate-now {
 .mobile-header-blue .header_mobile .mobile_nav .mobile_mainmenu > li.menu-item-has-children .arrow i:after {
   background: #fff;
 }
+
 
 /* Dark Color */
 .mobile-header-dark .header_mobile .mlogo_wrapper {
@@ -4341,12 +4344,12 @@ div.line-chart .chart-legend li {
 # Footer
 --------------------------------------------------------------*/
 .site-footer {
-  background: #00aad2;
+  background: #14181C;
   color: #fff;
 }
 
 .main-footer {
-  padding: 120px 0 80px;
+  padding: 40px 0 40px;
 }
 .main-footer h4 {
   color: #fff;
@@ -4398,13 +4401,13 @@ div.line-chart .chart-legend li {
 }
 
 .footer-bottom {
-  background: #002c60;
+  background: #00AAD2;
   padding: 18px 0;
   font-size: 13px;
-  color: rgba(255, 255, 255, 0.6);
+  color: rgb(255, 255, 255);
 }
 .footer-bottom a {
-  color: rgba(255, 255, 255, 0.6);
+  color: rgb(255, 255, 255);
 }
 .footer-bottom a:hover {
   color: #fff;

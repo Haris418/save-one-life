@@ -13,6 +13,8 @@
         background:  '#fff'
     });
 
+    
+
     //Project Filter
     $(window).on("load", function(){
         var $container = $('#projects');
@@ -36,27 +38,6 @@
                 filter: selector
             });
             return false;
-        });
-    });
-
-    //Counter
-    var v_count = '0';
-    $(window).on("scroll", function(){
-        $('.fun-facts .number').each(function(){
-            var imagePos = $(this).offset().top;           
-            var topOfWindow = $(window).scrollTop();
-            if (imagePos < topOfWindow+800 && v_count=='0') {       
-                $(function ($) {
-                    // start all the timers
-                    $('.fun-facts .number').each(count);                                         
-                    function count(options) {
-                        v_count = '1';
-                        var $this = $(this);
-                        options = $.extend({}, options || {}, $this.data('countToOptions') || {});
-                        $this.countTo(options);
-                    }
-                });             
-            }
         });
     });
     
@@ -155,7 +136,7 @@
                 {
                     breakpoint: 991,
                     settings: {
-                        slidesToShow: $m_show,
+                        slidesToShow: 1,
                         slidesToScroll: 1,
                         arrows: false,
                         dots: true
@@ -183,7 +164,7 @@
         });
     });
 
-    //Project Slider 2
+    //Project Slider 2 - Our Vision
     $('.project-list-2').each( function () {
         var $show = $(this).data('show');
         var $dot  = $(this).data('dot');
